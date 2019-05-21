@@ -246,7 +246,6 @@ if (isset($_POST['option']) && $_POST['option'] == 'save_connector_settings') {
         DB::update_option('acs_url', $acs_url);
         DB::update_option('single_logout_url', $single_logout_url);
         DB::update_option('relaystate_url',$relaystate_url);
-
         DB::update_option('mo_saml_message', 'Settings saved successfully.');
         mo_saml_show_success_message();
         if (empty($saml_x509_certificate)) {
