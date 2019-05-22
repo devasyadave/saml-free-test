@@ -9,7 +9,7 @@
 	],
 	"require" : {
 		"php" : "^5.1 || ^7.1",
-		"laravel/laravel" : "^5.2"
+		"laravel/laravel" : "^5.1"
 	},
 	"autoload" : {
 		"files" : [
