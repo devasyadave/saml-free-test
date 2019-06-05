@@ -210,7 +210,6 @@
                                     </button>
                                 </a>
                             </div>
-                        </form>
                     </div>
                     <div class="col-lg-4 offset-lg-1">
                         <h4>Service Provider Settings</h4>
@@ -237,7 +236,7 @@
                                     class="form-control" id="sp_entity_id" name="sp_entity_id"
                                     type="text" readonly=""
                             <?php
-                                $entity_id = $base_url . 'miniorange_php_saml_connector';
+                                $entity_id = $base_url . '/miniorange_php_saml_connector';
                                 echo ' value="' . $entity_id . '" ';
                                 ?>>
                         </div>
@@ -247,7 +246,7 @@
                                     class="form-control" id="acs_url" name="acs_url" type="text"
                                     readonly=""
                             <?php
-                                $acs = $base_url . 'sso.php';
+                                $acs = $base_url . '/sso.php';
                                 echo ' value="' . $acs . '" ';
                                 ?>>
                         </div>
@@ -258,7 +257,7 @@
                                     class="form-control" id="slo_url" name="slo_url" type="text"
                                     readonly=""
                             <?php
-                                $slo = $base_url . 'logout.php';
+                                $slo = $base_url . '/logout.php';
                                 echo ' value="' . $slo . '" ';
                                 ?>>
                         </div>
@@ -299,8 +298,6 @@
                                         Identity Provider for encryption or signing.
                                     </div>
                                 </div>
-
-
                                 </form>
                                 <fieldset disabled="disabled">
                                     <h4>Attribute Mapping</h4> <h6 class="premium-indicator">Available in Premium
